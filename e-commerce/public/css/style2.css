@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.top{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1acc;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mid{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+    width: 150px;
+    width: 100px;
+    margin:10px auto ;
+}
+    hr {
+        border: none;
+        border-top: 1px solid #ccc; /* Adjust color as needed */
+        margin: 10px 0; /* Adjust as needed */
+      }
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+}
+.list a{
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.search{
+    margin: 20px 0px 0px 62px;
+    width: 454px;
+    height: 30px;
+}
+form button{
+    height: 30px;
+    width: 30px;
+}
+.Menu{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* margin-top: 20px; */
+    margin: 20px auto;
+    
+}
+.Menu .category{
+    width:200px;
+    height:20px;
+}
+.Menu ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Menu li{
+    padding: 10px 10px ;
+    list-style: none;
+}
+.Menu a{
+    text-decoration: none;
+}
